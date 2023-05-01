@@ -72,6 +72,21 @@ header {
   display: none;
 }
 
+main {
+  background-color: #24252ac6;
+  margin: 400px;
+  color: #ffffff;
+  width: 100hv;
+  margin-top: 100hv;
+  text-align:center;
+}
+
+main > p {
+  font-size: small;
+  padding: 20px;
+}
+
+
 @media screen and (max-width: 730px) { 
   .nav-bar {
     padding: 1.5rem 4rem;
