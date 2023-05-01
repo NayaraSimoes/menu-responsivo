@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="assets/CSS/style.css">
 </head>
 <body>
-  <h1>Menu Principal</h1>
   <header>
     <nav class="nav-bar">
       <div class="logo">
@@ -23,10 +22,29 @@
         </ul>
       </div>
 
-      <div>
-        <button class="login-button">Entrar</button>
+      <div class="login-button">
+        <button><a href="#">Entrar</a></button>
+      </div>
+      
+      <div class="mobile-menu-icon">
+        <button onclick="menuShow()"><img class="icon" 
+          src="assets/img/menu_white_36dp.svg" alt=""></button>
       </div>
     </nav>
+
+    <div class="mobile-menu">
+      <ul>
+        <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Projetos</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+      </ul>
+
+      <div class="login-button">
+        <button><a href="#">Entrar</a></button>
+      </div>
+    </div>
   </header>
+
+  <script src="assets/js/script.js"></script>
 </body>
 </html>
